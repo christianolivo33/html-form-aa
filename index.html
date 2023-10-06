@@ -5,27 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Form App Academy</title>
+    <link rel="stylesheet" href="layout.css">
 </head>
 
 <body>
     <h1></h1>
     <form action="/form-handling-url" method="post">
         <fieldset>
-            <legend>Add user</legend>
+            <legend class="add-user">Add user</legend>
 
             <div>
                 <label for="firstName">First name</label>
-                <input type="text" id="firstName" name="first_name">
+                <input class="list-elements" type="text" id="firstName" name="first_name">
             </div>
 
             <div>
                 <label for="lastName">Last name</label>
-                <input type="text" id="lastName" name="last_name">
+                <input class="list-elements" type="text" id="lastName" name="last_name">
             </div>
 
             <div>
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email_address">
+                <input class="list-elements" type="email" id="email" name="email_address">
             </div>
 
             <div>
@@ -44,7 +45,7 @@
             </div>
             <div>
                 <legend>Comments:</legend>
-                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <textarea class="list-elements" name="comments" id="comments" cols="30" rows="10"></textarea>
             </div>
             <div>
                 <input type="date">
